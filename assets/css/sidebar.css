@@ -1,0 +1,12 @@
+/* 
+    Document   : sidebar
+    Created on : Sep 9, 2014, 3:47:10 PM
+    Author     : Abas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#nav{width:200px;height:100%;position:absolute;z-index:100;background:#111;color:#fff;overflow:hidden;}
+#nav section ul,.user-panel{margin:0;padding:0;width:200px;margin:10px;list-style:none;}
+#nav a span{margin:0 10px 0 0;}
+#nav a{color:#fff;font-size:14px;text-decoration:none;}

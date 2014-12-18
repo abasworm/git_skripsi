@@ -1,0 +1,76 @@
+/* 
+    Document   : style
+    Created on : Sep 3, 2014, 4:04:34 PM
+    Author     : Abas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.bg {
+  background: url("../pict/bg.jpg") no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 300px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.jumbotron {
+  height: 300px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+}
+
+.devoops-getdata {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  color:#ebebeb;
+}
+
+.dl-horizontal dt{
+    text-align: left;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+/* just for preview */
+.container {
+    padding-top: 40px;  
+}
+
+@media ( max-width: 585px ) {
+    .input-group span.input-group-btn,.input-group input,.input-group button{
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .input-group {
+        position: relative;   
+    }
+    .input-group span.data-up{
+        position: absolute;
+        top: 0;
+    }
+    .input-group span.data-dwn{
+        position: absolute;
+        bottom: 0;
+    }
+    .form-control.text-center {
+        margin: 34px 0;
+    }
+    .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
+        margin-left:0;
+    }
+
+}
